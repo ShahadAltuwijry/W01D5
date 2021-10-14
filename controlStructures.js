@@ -102,16 +102,12 @@ do {
 
 // creating a loop that will produce a specific output
 
-let star = "*";
-let stars = star;
-/*
-let stars = star.repeat(i);
-for (let i = 0; i < star.length; i++) {
-  console.log(stars);
-}*/
+for (let star = "*"; star.length < 6; star += "*") {
+  console.log(star);
+}
 
-do {
+/* do {
   console.log(stars);
   console.log(stars + star);
 } while (stars.length == 6);
-//didnt work, I'll try later
+//didnt work, I'll try later */
