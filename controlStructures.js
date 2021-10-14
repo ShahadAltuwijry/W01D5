@@ -84,7 +84,7 @@ for (let index = 20; index >= 0; index--) {
 
 //to show even numbers from 1 - 20
 
-for (let index1 = 1; index1 < 20; index1++) {
+for (let index1 = 1; index1 <= 20; index1++) {
   if (index1 % 2 === 0) {
     console.log(index1);
   }
@@ -105,9 +105,3 @@ do {
 for (let star = "*"; star.length < 6; star += "*") {
   console.log(star);
 }
-
-/* do {
-  console.log(stars);
-  console.log(stars + star);
-} while (stars.length == 6);
-//didnt work, I'll try later */
